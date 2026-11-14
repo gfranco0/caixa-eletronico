@@ -77,3 +77,24 @@ No Windows:
 ```bash
 caixa_eletronico.exe
 ```
+
+## Exemplos de testes
+
+Os testes abaixo consideram que cada execução começa novamente com saldo de R$ 1.000.
+
+### Teste 1 — Saque de R$ 50
+
+**Resultado esperado: válido**
+
+```text
+===== CAIXA ELETRONICO =====
+Saldo disponivel: R$ 1000
+Digite o valor do saque: R$ 50
+
+===== NOTAS ENTREGUES =====
+1 nota(s) de R$ 50
+
+Saque realizado com sucesso!
+```
+
+**Análise:** R$ 50 é múltiplo de 5 e não ultrapassa o saldo disponível.
