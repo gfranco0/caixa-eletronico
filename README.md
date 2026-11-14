@@ -53,3 +53,27 @@ INÍCIO
     FIM SE
 FIM
 ```
+
+## Código-fonte
+
+O código completo está no arquivo [`caixa_eletronico.c`](caixa_eletronico.c).
+
+## Como compilar e executar
+
+É necessário ter um compilador C, como o GCC.
+
+```bash
+gcc caixa_eletronico.c -o caixa_eletronico
+```
+
+No Linux ou macOS:
+
+```bash
+./caixa_eletronico
+```
+
+No Windows:
+
+```bash
+caixa_eletronico.exe
+```
