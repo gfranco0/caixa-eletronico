@@ -131,3 +131,16 @@ ERRO: O valor deve ser multiplo de 5!
 ```
 
 **Análise:** R$ 123 não é múltiplo de 5, então o saque é recusado.
+
+### Teste 4 — Saque de R$ 1005
+
+**Resultado esperado: inválido**
+
+```text
+===== CAIXA ELETRONICO =====
+Saldo disponivel: R$ 1000
+Digite o valor do saque: R$ 1005
+
+ERRO: Saldo insuficiente!
+```
+
