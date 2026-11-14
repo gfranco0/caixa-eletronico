@@ -144,3 +144,21 @@ Digite o valor do saque: R$ 1005
 ERRO: Saldo insuficiente!
 ```
 
+**Análise:** R$ 1005 é múltiplo de 5, mas ultrapassa o saldo disponível.
+
+## Resumo dos testes
+
+| Valor solicitado | Resultado | Justificativa |
+|---:|---|---|
+| R$ 50 | Válido | Múltiplo de 5 e saldo suficiente |
+| R$ 95 | Válido | Múltiplo de 5 e saldo suficiente |
+| R$ 123 | Inválido | Não é múltiplo de 5 |
+| R$ 1005 | Inválido | Saldo insuficiente |
+
+## Conceitos de programação utilizados
+
+- Variáveis e tipos primitivos (`int`);
+- Estruturas condicionais (`if`, `else if`, `else`);
+- Operadores aritméticos de divisão inteira (`/`) e módulo (`%`);
+- Contadores para a quantidade de cédulas;
+- Comentários para documentar o código.
