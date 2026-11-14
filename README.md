@@ -118,3 +118,16 @@ Saque realizado com sucesso!
 
 **Análise:** R$ 95 é múltiplo de 5 e há saldo suficiente. A distribuição totaliza R$ 95.
 
+### Teste 3 — Saque de R$ 123
+
+**Resultado esperado: inválido**
+
+```text
+===== CAIXA ELETRONICO =====
+Saldo disponivel: R$ 1000
+Digite o valor do saque: R$ 123
+
+ERRO: O valor deve ser multiplo de 5!
+```
+
+**Análise:** R$ 123 não é múltiplo de 5, então o saque é recusado.
