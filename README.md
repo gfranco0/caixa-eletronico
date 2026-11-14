@@ -98,3 +98,23 @@ Saque realizado com sucesso!
 ```
 
 **Análise:** R$ 50 é múltiplo de 5 e não ultrapassa o saldo disponível.
+
+### Teste 2 — Saque de R$ 95
+
+**Resultado esperado: válido**
+
+```text
+===== CAIXA ELETRONICO =====
+Saldo disponivel: R$ 1000
+Digite o valor do saque: R$ 95
+
+===== NOTAS ENTREGUES =====
+1 nota(s) de R$ 50
+2 nota(s) de R$ 20
+1 nota(s) de R$ 5
+
+Saque realizado com sucesso!
+```
+
+**Análise:** R$ 95 é múltiplo de 5 e há saldo suficiente. A distribuição totaliza R$ 95.
+
